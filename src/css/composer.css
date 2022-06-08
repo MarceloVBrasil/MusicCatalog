@@ -1,0 +1,25 @@
+.composer--container
+{
+    width: 252px;
+    height: auto;
+    margin-right: 10px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: hsl(0, 0%, 18%);
+    text-align: center;
+}
+
+.composer--img
+{
+    width: 250px;
+    height: 400px;
+    cursor: pointer;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: 1px solid white;
+}
+
+.composer--img:hover
+{
+    border: 1px solid gold;
+}

@@ -1,0 +1,17 @@
+.song--container
+{
+    width: 100%;
+    border-bottom: 1px solid white;
+}
+
+.song--song
+{
+    font-size: 25px;
+    text-transform: capitalize;
+    margin-left: 20px;
+}
+
+.song--container:hover
+{
+    background-color: #616161;
+}

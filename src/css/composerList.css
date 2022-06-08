@@ -1,0 +1,37 @@
+.composerList--composer
+{
+    display: flex;
+    overflow-x: hidden;
+    transition: all ease 0.3s;
+}
+
+.composerList--leftArrow,
+.composerList--rightArrow
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 460px;
+    opacity: 0;
+    font-size: 30px;
+    cursor: pointer;
+    position: absolute;
+}
+
+.composerList--leftArrow
+{
+    left: 0;
+}
+
+.composerList--rightArrow
+{
+    right: 0;
+}
+
+.composerList--composer:hover .composerList--leftArrow,
+.composerList--composer:hover .composerList--rightArrow
+{
+    opacity: 1;
+    background-color: hsla(0, 0%, 6%, 0.4);
+}

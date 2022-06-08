@@ -1,0 +1,17 @@
+@import './composerList.css';
+@import './composer.css';
+@import './selectedComposer.css';
+@import './song.css';
+
+body
+{
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html
+
+{
+    scroll-behavior: smooth;
+}
